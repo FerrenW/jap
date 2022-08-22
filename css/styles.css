@@ -4,6 +4,24 @@
 .site-header {
   font-family: 'Raleway', serif !important;
 }
+.username{
+  color: rgba(255,255,255,.55);
+}
+.username:hover{
+  color: #fff;
+
+}
+.login-background{
+  background-image:url("../img/background.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media screen and (max-width: 1279px){
+  .cardresponsive{
+    min-width: 100%;
+  }
+}
 
 .jumbotron .display-4 {
   font-weight: bold;
