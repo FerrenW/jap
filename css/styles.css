@@ -11,6 +11,13 @@
   color: #fff;
 
 }
+.g-signin2{
+  width: 100%;
+}
+
+.g-signin2 > div{
+  margin: 0 auto;
+}
 .login-background{
   background-image:url("../img/background.png"); 
   background-repeat: no-repeat;

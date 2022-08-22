@@ -1,3 +1,10 @@
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    let login = {google:true,login:true, username:`${profile.getName()}`, imagen:`${profile.getImageUrl()}`}
+    localStorage.setItem('login', JSON.stringify(login))
+  }
+  
+
 function login(username,password){
     let avisar = document.getElementById("user-warn")
 

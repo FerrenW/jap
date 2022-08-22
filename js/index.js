@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){
     
     login = JSON.parse(localStorage.getItem(('login')))
     
+    
   login ? document.getElementById("username").innerHTML = login.username : this.location.href = ('/login.html')
     
 
